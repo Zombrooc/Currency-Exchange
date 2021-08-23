@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .central-box {
+  width: 350px;
+  background: #fff;
+  padding: 15px 28px;
+  border-radius: 25px;
+}
+
+.container .central-box .inputGroup {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.container .central-box .inputGroup label {
+  font-weight: 700;
+}
+
+.container .central-box .inputGroup input {
+  height: 35px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #cdcdcd;
+}
+
+.container .central-box .convertButton {
+  width: 100%;
+  border-radius: 5px;
+  padding: 8px 25px;
+  font-size: 17px;
+  background: #4aed62;
+  color: #fff;
+  border: 1px solid transparent;
+  transition: .5s ease-in-out;
+}
+
+.container .central-box .convertButton:hover {
+  background: transparent;
+  color: #4aed62;
+  border: 1px solid #4aed62;
+}
