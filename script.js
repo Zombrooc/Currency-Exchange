@@ -1,6 +1,5 @@
 const usdInput = document.getElementById("USD");
 const brlInput = document.getElementById("BRL");
-//const convertButton = document.getElementById("convertButton");
 
 const replaceComma = (string) => {
   return string.replace(',', '.');
